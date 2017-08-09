@@ -2,7 +2,7 @@
 
 trap 'exit 2' TERM INT
 
-for f in **/*.avi; do
+for f in **/*.{avi,ogg,wmv}; do
     printf '\033[1;34;40m'
     echo "Converting $f"
     printf '\033[0m'    
