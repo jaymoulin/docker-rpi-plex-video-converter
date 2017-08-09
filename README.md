@@ -1,7 +1,7 @@
 Raspberry PI - Plex Video converter - Docker Image
 ==================================================
 
-This image purpose is to convert unsupported video files by Plex for Raspberry to mp4 wich is supported.
+This image purpose is to convert unsupported video files by Plex for Raspberry to mp4 which is supported.
 
 Just run the container to convert all avi files recursively with your Raspberry Pi though the `media` volume :
 
