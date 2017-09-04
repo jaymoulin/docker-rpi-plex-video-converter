@@ -1,5 +1,6 @@
 Raspberry PI - Plex Video converter - Docker Image
 ==================================================
+[![latest release](https://img.shields.io/github/release/jaymoulin/docker-rpi-plex-video-converter.svg "latest release")](http://github.com/jaymoulin/docker-rpi-plex-video-converter/releases)
 
 This image purpose is to convert unsupported video files by Plex for Raspberry to mp4 which is supported.
 
