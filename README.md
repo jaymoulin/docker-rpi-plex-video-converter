@@ -10,7 +10,7 @@ Just run the container to convert all avi files recursively with your Raspberry 
 docker run --rm -t -v /path/to/your/media/folder:/media jaymoulin/rpi-plex-video-converter
 ```
 
-This image also exists for PC so your images can be converted quicker using a more powerful machine
+This image also exists for PC so your videos can be converted quicker using a more powerful machine
 
 ```
 docker run --rm -t -v /path/to/your/media/folder:/media jaymoulin/rpi-plex-video-converter:pc
