@@ -4,7 +4,7 @@ trap 'exit 2' TERM INT
 
 shopt -s globstar
 shopt -s nullglob
-for f in **/*.{avi,ogm,wmv,AVI,OGM,WMV}; do
+for f in **/*.{avi,ogm,wmv,AVI,OGM,WMV,flv,FLV}; do
     printf '\033[1;34;40m'
     echo "Converting $f"
     printf '\033[0m'
