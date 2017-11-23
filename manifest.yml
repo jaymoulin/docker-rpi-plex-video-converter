@@ -21,7 +21,7 @@ manifests:
   -
     image: jaymoulin/rpi-plex-video-converter:$VERSION-amd64
     platform:
-      architecture: arm64
+      architecture: amd64
       os: linux
   -
     image: jaymoulin/rpi-plex-video-converter:$VERSION-i386
