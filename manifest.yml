@@ -1,0 +1,30 @@
+image: jaymoulin/rpi-plex-video-converter:$FULLVERSION
+manifests:
+  -
+    image: jaymoulin/rpi-plex-video-converter:$VERSION-arm32v5
+    platform:
+      architecture: arm
+      variant: v5
+      os: linux
+  -
+    image: jaymoulin/rpi-plex-video-converter:$VERSION-arm32v7
+    platform:
+      architecture: arm
+      variant: v7
+      os: linux
+  -
+    image: jaymoulin/rpi-plex-video-converter:$VERSION-arm64v8
+    platform:
+      architecture: arm
+      variant: v8
+      os: linux
+  -
+    image: jaymoulin/rpi-plex-video-converter:$VERSION-amd64
+    platform:
+      architecture: arm64
+      os: linux
+  -
+    image: jaymoulin/rpi-plex-video-converter:$VERSION-i386
+    platform:
+      architecture: 386
+      os: linux

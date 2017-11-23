@@ -6,7 +6,6 @@ Raspberry PI - Plex Video converter - Docker Image
 [![Bitcoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/btc.png "Bitcoin donation")](https://m.freewallet.org/id/374ad82e/btc)
 [![Litecoin donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ltc.png "Litecoin donation")](https://m.freewallet.org/id/374ad82e/ltc)
 [![PayPal donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png "PayPal donation")](https://www.paypal.me/jaymoulin)
-[![Beerpay donation](https://beerpay.io/jaymoulin/docker-rpi-plex-video-converter/badge.svg "Beerpay donation")](https://beerpay.io/jaymoulin/docker-rpi-plex-video-converter)
 
 This image purpose is to convert unsupported video files by Plex for Raspberry to mp4 which is supported.
 
@@ -25,7 +24,7 @@ docker run --rm -t -v /path/to/your/media/folder:/media jaymoulin/rpi-plex-video
 Appendixes
 ---
 
-### Install RaspberryPi Docker
+### Install Docker
 
 If you don't have Docker installed yet, you can do it easily in one line using this command
  
