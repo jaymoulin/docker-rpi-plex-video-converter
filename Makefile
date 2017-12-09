@@ -5,11 +5,9 @@ archs = amd64 arm32v5 arm32v7 arm64v8 i386 aarch64
 
 .PHONY: all build publish latest
 all: build publish latest
-qemu-arm-static:
-	cp /usr/bin/qemu-arm-static .
 qemu-aarch64-static:
 	cp /usr/bin/qemu-aarch64-static .
-build: qemu-arm-static qemu-aarch64-static
+build: qemu-aarch64-static
 	$(foreach arch,$(archs), \
 		cat Dockerfile | sed "s/FROM debian:stable-slim/FROM ${arch}\/debian:stable-slim/g" > .Dockerfile; \
 		docker build -t jaymoulin/rpi-plex-video-converter:${VERSION}-$(arch) -f .Dockerfile ${CACHE} .;\
