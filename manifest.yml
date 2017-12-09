@@ -19,6 +19,11 @@ manifests:
       variant: v8
       os: linux
   -
+    image: jaymoulin/rpi-plex-video-converter:$VERSION-aarch64
+    platform:
+      architecture: arm64
+      os: linux
+  -
     image: jaymoulin/rpi-plex-video-converter:$VERSION-amd64
     platform:
       architecture: amd64

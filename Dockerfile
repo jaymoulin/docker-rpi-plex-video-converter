@@ -1,6 +1,7 @@
 FROM debian:stable-slim as builder
 
-COPY qemu-*-static /usr/bin/
+COPY qemu-arm-static /usr/bin/
+COPY qemu-aarch64-static /usr/bin/
 
 FROM builder
 
