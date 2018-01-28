@@ -1,3 +1,5 @@
+![logo](https://github.com/jaymoulin/docker-rpi-plex-video-converter/raw/master/logo.png)
+
 Raspberry PI - Plex Video converter - Docker Image
 ==================================================
 [![latest release](https://img.shields.io/github/release/jaymoulin/docker-rpi-plex-video-converter.svg "latest release")](http://github.com/jaymoulin/docker-rpi-plex-video-converter/releases)
