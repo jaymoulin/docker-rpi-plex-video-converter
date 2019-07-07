@@ -7,7 +7,7 @@ FROM builder
 
 LABEL maintainer="Jay MOULIN <jaymoulin@gmail.com> <https://twitter.com/MoulinJay>"
 
-RUN apt-get update && apt-get install libav-tools -y --force-yes
+RUN apt-get update && apt-get install ffmpeg -y --force-yes
 
 ADD ./convert.sh /usr/bin/convert.sh
 
