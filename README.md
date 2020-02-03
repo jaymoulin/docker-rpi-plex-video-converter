@@ -10,6 +10,8 @@ Raspberry PI - Plex Video converter - Docker Image
 [![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png "Buy me a coffee")](https://www.buymeacoffee.com/3Yu8ajd7W)
 [![Become a Patron](https://badgen.net/badge/become/a%20patron/F96854 "Become a Patron")](https://patreon.com/femtopixel)
 
+THIS REPOSITORY IS AUTO-UPDATED BY [GITHUB-RELEASE-NOTIFIER](https://github.com/femtopixel/github-release-notifier) (https://github.com/femtopixel/github-release-notifier)
+
 This image purpose is to convert unsupported video files by Plex for Raspberry to mp4 which is supported.
 
 Just run the container to convert all videos files to convert recursively on your `media` volume :
