@@ -1,6 +1,6 @@
-VERSION ?= n4.3-dev
+VERSION ?= n4.4-dev
 CACHE ?= --no-cache=1
-FULLVERSION ?= n4.3-dev
+FULLVERSION ?= n4.4-dev
 archs ?= amd64 arm32v5 arm32v7 arm64v8 i386 aarch64
 
 .PHONY: all build publish latest
