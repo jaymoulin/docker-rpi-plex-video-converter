@@ -15,7 +15,7 @@ build: qemu-aarch64-static qemu-arm-static
 		docker build -t jaymoulin/rpi-plex-video-converter:${VERSION}-$(arch) -f .Dockerfile ${CACHE} .;\
 	)
 publish:
-	docker push jaymoulin/rpi-plex-video-converter
+	docker push jaymoulin/rpi-plex-video-converter -a
 	cat manifest.yml | sed "s/\$$VERSION/${VERSION}/g" > manifest.yaml
 	cat manifest.yaml | sed "s/\$$FULLVERSION/${FULLVERSION}/g" > manifest2.yaml
 	mv manifest2.yaml manifest.yaml
