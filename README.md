@@ -18,6 +18,7 @@ THIS REPOSITORY IS AUTO-UPDATED BY [GITHUB-RELEASE-NOTIFIER](https://github.com/
 This image purpose is to convert unsupported video files by Plex for Raspberry to mp4 which is supported.
 
 Just run the container to convert all videos files to convert recursively on your `media` volume :
+Please note that this package is also hosted on Github Container Registry, just add `ghcr.io/` before the image name (`docker pull ghcr.io/jaymoulin/rpi-plex-video-converter` instead of `jaymoulin/rpi-plex-video-converter`)
 
 ```
 docker run --rm -t -v /path/to/your/media/folder:/media jaymoulin/rpi-plex-video-converter
