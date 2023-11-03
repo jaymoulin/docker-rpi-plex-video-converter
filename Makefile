@@ -1,6 +1,6 @@
-VERSION ?= n6.1-dev
+VERSION ?= n2.8.22
 CACHE ?= --no-cache=1
-FULLVERSION ?= n6.1-dev
+FULLVERSION ?= n2.8.22
 archs ?= amd64 arm32v5 arm32v7 arm64v8 i386
 
 .PHONY: all build publish latest
