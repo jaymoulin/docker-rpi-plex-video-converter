@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> As-of 2021, this product does not have a free support team anymore. If you want this product to be maintained, please support my work.
+
+> [!NOTICE]
+> (This product is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added.)
+
+> [!NOTICE]
+> THIS REPOSITORY IS AUTO-UPDATED BY [GITHUB-RELEASE-NOTIFIER](https://github.com/femtopixel/github-release-notifier) (https://github.com/femtopixel/github-release-notifier)
+
 ![logo](https://github.com/jaymoulin/docker-rpi-plex-video-converter/raw/master/logo.png)
 
 Raspberry PI - Plex Video converter - Docker Image
@@ -9,16 +18,13 @@ Raspberry PI - Plex Video converter - Docker Image
 [![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png "Buy me a coffee")](https://www.buymeacoffee.com/jaymoulin)
 [![Buy me a coffee](https://ko-fi.com/img/githubbutton_sm.svg "Buy me a coffee")](https://www.ko-fi.com/jaymoulin)
 
-DISCLAIMER: As-of 2021, this product does not have a free support team anymore. If you want this product to be maintained, please support on Patreon.
-
-(This product is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added.)
-
-THIS REPOSITORY IS AUTO-UPDATED BY [GITHUB-RELEASE-NOTIFIER](https://github.com/femtopixel/github-release-notifier) (https://github.com/femtopixel/github-release-notifier)
-
 This image purpose is to convert unsupported video files by Plex for Raspberry to mp4 which is supported.
 
 Just run the container to convert all videos files to convert recursively on your `media` volume :
 Please note that this package is also hosted on Github Container Registry, just add `ghcr.io/` before the image name (`docker pull ghcr.io/jaymoulin/rpi-plex-video-converter` instead of `jaymoulin/rpi-plex-video-converter`)
+
+> [!NOTICE]
+> 0.7.0 update : you can add a `compress=28` environment variable to compress all .mp4 files in the media path. The higher the number, the less the compression
 
 ```
 docker run --rm -t -v /path/to/your/media/folder:/media jaymoulin/rpi-plex-video-converter
