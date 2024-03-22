@@ -26,6 +26,9 @@ Please note that this package is also hosted on Github Container Registry, just 
 > [!NOTICE]
 > 0.7.0 update : you can add a `compress=28` environment variable to compress all .mp4 files in the media path. The higher the number, the less the compression
 
+> [!NOTICE]
+> 0.8.0 update : you can add a `fallback=1` environment variable to use libx264 codec instead of libx265.
+
 ```
 docker run --rm -t -v /path/to/your/media/folder:/media jaymoulin/rpi-plex-video-converter
 ```
