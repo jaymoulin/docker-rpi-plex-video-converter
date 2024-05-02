@@ -1,11 +1,8 @@
-FROM debian:stable-slim as builder
+FROM debian:stable-slim
 
-COPY qemu-arm-static /usr/bin/
-COPY qemu-aarch64-static /usr/bin/
-
-FROM builder
-
-LABEL maintainer="Jay MOULIN <jaymoulin@gmail.com> <https://twitter.com/MoulinJay>"
+ARG VERSION
+ARG TARGETPLATFORM
+LABEL maintainer="Jay MOULIN <https://jaymoulin.me>"
 
 RUN apt-get update && apt-get install ffmpeg -y --force-yes
 
