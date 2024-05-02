@@ -1,10 +1,10 @@
-> [!IMPORTANT]
+> [!CAUTION]
 > As-of 2021, this product does not have a free support team anymore. If you want this product to be maintained, please support my work.
 
-> [!NOTICE]
+> [!NOTE]
 > (This product is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added.)
 
-> [!NOTICE]
+> [!TIP]
 > THIS REPOSITORY IS AUTO-UPDATED BY [GITHUB-RELEASE-NOTIFIER](https://github.com/femtopixel/github-release-notifier) (https://github.com/femtopixel/github-release-notifier)
 
 ![logo](https://github.com/jaymoulin/docker-rpi-plex-video-converter/raw/master/logo.png)
@@ -23,10 +23,10 @@ This image purpose is to convert unsupported video files by Plex for Raspberry t
 Just run the container to convert all videos files to convert recursively on your `media` volume :
 Please note that this package is also hosted on Github Container Registry, just add `ghcr.io/` before the image name (`docker pull ghcr.io/jaymoulin/rpi-plex-video-converter` instead of `jaymoulin/rpi-plex-video-converter`)
 
-> [!NOTICE]
+> [!NOTE]
 > 0.7.0 update : you can add a `compress=28` environment variable to compress all .mp4 files in the media path. The higher the number, the less the compression
 
-> [!NOTICE]
+> [!NOTE]
 > 0.8.0 update : you can add a `fallback=1` environment variable to use libx264 codec instead of libx265.
 
 ```
