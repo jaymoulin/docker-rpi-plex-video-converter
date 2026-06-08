@@ -1,4 +1,4 @@
-VERSION ?= n7.1.4
+VERSION ?= n8.1.1
 CACHE ?= --no-cache=1
 
 .PHONY: all build publish
